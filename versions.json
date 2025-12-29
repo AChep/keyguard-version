@@ -1,0 +1,38 @@
+[
+    {
+        "date": "2025-12-29",
+        "version": {
+            "semantic": "2.0.3",
+            "tag": "r20251229"
+        },
+        "changelog": {
+            "summary": "This update improves Linux desktop integration by adding support for XDG Notification Portals. We also fixed a crash affecting users with the Turkish language setting to ensure a stable experience.",
+            "raw": null
+        },
+        "url": "https://github.com/AChep/keyguard-app/releases/tag/r20251229"
+    },
+    {
+        "date": "2025-12-28",
+        "version": {
+            "semantic": "2.0.2",
+            "tag": "r20251228.3"
+        },
+        "changelog": {
+            "summary": "This release focuses on internal housekeeping and packaging improvements to ensure a stable experience.",
+            "raw": null
+        },
+        "url": "https://github.com/AChep/keyguard-app/releases/tag/r20251228.3"
+    },
+    {
+        "date": "2025-12-28",
+        "version": {
+            "semantic": "2.0.1",
+            "tag": "r20251228.2"
+        },
+        "changelog": {
+            "summary": "This update resolves a stability issue within the generator to ensure smoother operation. We have also included the latest definitions for two-factor authentication services and updated translations for a better localized experience.",
+            "raw": null
+        },
+        "url": "https://github.com/AChep/keyguard-app/releases/tag/r20251228.2"
+    }
+]
