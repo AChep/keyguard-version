@@ -1,5 +1,17 @@
 [
     {
+        "date": "2026-01-02",
+        "version": {
+            "semantic": "2.1.0",
+            "tag": "r20260102.2"
+        },
+        "changelog": {
+            "summary": "This update introduces initial support for creating new password credentials directly within the Android app.",
+            "raw": "- [9bd9ef43](http://github.com/AChep/keyguard-app/commit/9bd9ef43855582b060b2aa688a734c04cad62bdd) - chore: Remove extra whitespace from command preventing that from running\n- [5a4c0455](http://github.com/AChep/keyguard-app/commit/5a4c0455ddd699d6f00ac2340d68952c215495f0) - chore: Comply with actions/checkout requiring path to be under the predefined checkout dir\n- [cfe5ce46](http://github.com/AChep/keyguard-app/commit/cfe5ce464ea82f0f595eaf0379d05be6f01b187e) - chore: Bump app version name to 2.1.0\n- [4a852279](http://github.com/AChep/keyguard-app/commit/4a85227986440dfde71bf4a60e5e884c2a51c49b) - feat(Android): Initial support for the Create password credential request #1191\n- [a2cb2fa2](http://github.com/AChep/keyguard-app/commit/a2cb2fa2b911a078145682229c6389e946da5c7b) - chore: Create an GitHub issue for publishing on Flathub for tracking\n- [88c13054](http://github.com/AChep/keyguard-app/commit/88c13054cb89ccccb7a5c2ec9e708b9578042ac8) - chore(Flatpak): Maintain the releases list automatically + generate release summary\n- [c87130fc](http://github.com/AChep/keyguard-app/commit/c87130fc093ac21cf25695e0ad9192d7d2330430) - chore: Update Flathub listing accroding to the platform guidelines\n- [0c7ea794](http://github.com/AChep/keyguard-app/commit/0c7ea794a4d4996f792cfe3ed0d7963eb5106c80) - Merge pull request #1188 from AChep/dependabot/github_actions/actions/upload-artifact-6\n- [011f713c](http://github.com/AChep/keyguard-app/commit/011f713cc133d045b53282f97042245f6b9ddb57) - build(deps): Bump actions/upload-artifact from 4 to 6\n- [3aae1333](http://github.com/AChep/keyguard-app/commit/3aae133321347986a6b2613cb66cfc8658b4f3e8) - docs(Readme): Remove AUR package instructions\n- [b2436d45](http://github.com/AChep/keyguard-app/commit/b2436d45fd6a78b70d423b505674bb60c5027889) - docs(Readme): Resize Flathub badge image to match the others\n- [dcdd3700](http://github.com/AChep/keyguard-app/commit/dcdd3700f13912229177a704371be3ce826a83c1) - docs(Readme): Add a link to Flathub"
+        },
+        "url": "https://github.com/AChep/keyguard-app/releases/tag/r20260102.2"
+    },
+    {
         "date": "2025-12-29",
         "version": {
             "semantic": "2.0.3",
