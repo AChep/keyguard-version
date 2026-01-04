@@ -1,5 +1,17 @@
 [
     {
+        "date": "2026-01-05",
+        "version": {
+            "semantic": "2.2.0",
+            "tag": "r20260105"
+        },
+        "changelog": {
+            "summary": "This update introduces a new feature for Android users, allowing you to add an app to the privileged app allowlist directly during a credential request. This gives you more flexibility and control over which applications can access your information.",
+            "raw": "- [1d8c6fe7](http://github.com/AChep/keyguard-app/commit/1d8c6fe7fb213888fba146220730dc08997ac92e) - chore: Bump app version name to 2.2.0\n- [74b0bd1a](http://github.com/AChep/keyguard-app/commit/74b0bd1ad84528cee2dac08ae136d0ba5b2f2ede) - Merge pull request #1200 from AChep/justdeleteme_action\n- [9329f0d1](http://github.com/AChep/keyguard-app/commit/9329f0d1d32a190e2b555ab9b75c3140bb449c70) - Merge pull request #1201 from AChep/tld_public_suffix_list_action\n- [0494fbcb](http://github.com/AChep/keyguard-app/commit/0494fbcb9f8b635c3862ee72b07076296502064c) - Merge pull request #1202 from AChep/passkeys_action\n- [8cb81837](http://github.com/AChep/keyguard-app/commit/8cb81837f09361e63b158c8bf454dcbd6db22791) - Merge pull request #1203 from AChep/localization_action\n- [ae548a30](http://github.com/AChep/keyguard-app/commit/ae548a30e0fe89eceba9354479af58bb4923a402) - [AUTO] Update localization library\n- [547667ce](http://github.com/AChep/keyguard-app/commit/547667cebca97bf1edea44603ad209becab413eb) - [AUTO] Update passkeys library\n- [97d3fc19](http://github.com/AChep/keyguard-app/commit/97d3fc19e28e3442c156c6b948d9a4b002f2b789) - [AUTO] Update Public suffix list\n- [eb91792d](http://github.com/AChep/keyguard-app/commit/eb91792df7d535b64c9eac4ceda4b4e4eda26cda) - [AUTO] Update justdeleteme library\n- [e8bfae5d](http://github.com/AChep/keyguard-app/commit/e8bfae5d95253ecef7813fb13cd30ad01d26ea64) - feat(Android): Allow a user to add an app to the privileged app allowlist during a credential request, in addition to the bundled list\n- [b729d389](http://github.com/AChep/keyguard-app/commit/b729d389a3a7d673bf83c2468d810dcf1a74fee8) - chore(Flathub): Translate metadata on release\n- [270d4e14](http://github.com/AChep/keyguard-app/commit/270d4e146b9af6cc10cc159bde6c6ea1b6244603) - Merge pull request #1196 from AChep/localization_action\n- [de8b4d28](http://github.com/AChep/keyguard-app/commit/de8b4d28bd750a415e4470c7c73d777cf9040bfc) - [AUTO] Update localization library\n- [e00b0307](http://github.com/AChep/keyguard-app/commit/e00b03074dd876be89ea8127232f375f922ae07d) - chore(Flathub): Create common listing text tokens\n- [7529bf6d](http://github.com/AChep/keyguard-app/commit/7529bf6d58f8500bb4b255d491a2ab77a976c671) - chore(Flathub): Shorten the app summary\n- [7621d93c](http://github.com/AChep/keyguard-app/commit/7621d93ca37fed33a64146b3406ce7d9c2d40ba2) - chore: Actually pass the variables to the Trigger Flathub release workflow"
+        },
+        "url": "https://github.com/AChep/keyguard-app/releases/tag/r20260105"
+    },
+    {
         "date": "2026-01-02",
         "version": {
             "semantic": "2.1.0",
