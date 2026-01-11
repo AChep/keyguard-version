@@ -1,5 +1,17 @@
 [
     {
+        "date": "2026-01-11",
+        "version": {
+            "semantic": "2.3.0",
+            "tag": "r20260111"
+        },
+        "changelog": {
+            "summary": "This update enhances the two-factor authentication experience by displaying both the current and upcoming one-time password. The privileged apps list is now better organized, with separate sections for user-added and community-added entries. For more control, you can now also disable passkey support in the settings.",
+            "raw": "- [279c3306](http://github.com/AChep/keyguard-app/commit/279c3306c418bf6df288ae3509e75dc1d23ad47e) - Merge pull request #1215 from AChep/passkeys_action\n- [3aa43db7](http://github.com/AChep/keyguard-app/commit/3aa43db78c8bc5ff602e19468a37576f375a85c3) - Merge pull request #1214 from AChep/justdeleteme_action\n- [3fc5231a](http://github.com/AChep/keyguard-app/commit/3fc5231a3982ec9247f9c5c26ffc17ca9a8988ab) - Merge pull request #1216 from AChep/tfa_2factorauth_action\n- [24bb53e1](http://github.com/AChep/keyguard-app/commit/24bb53e1057a596049ad3e4b576e13521f5df6e1) - Merge pull request #1213 from AChep/tld_public_suffix_list_action\n- [5294ea41](http://github.com/AChep/keyguard-app/commit/5294ea41e35657f6a02ffd8ac31ce92ea0d9e5c4) - Merge pull request #1212 from AChep/localization_action\n- [99fb3136](http://github.com/AChep/keyguard-app/commit/99fb3136f306e5cee678495c6e0568049005450f) - [AUTO] Update localization library\n- [d42e6b72](http://github.com/AChep/keyguard-app/commit/d42e6b720de15fa064e4864ccd541089372d1a0a) - [AUTO] Update passkeys library\n- [834870aa](http://github.com/AChep/keyguard-app/commit/834870aa26ff539c6799d6a97de8daf8af253fd7) - [AUTO] Update justdeleteme library\n- [94c9ff48](http://github.com/AChep/keyguard-app/commit/94c9ff48110a2c20374bd3b8cbb97709d37e07eb) - [AUTO] Update two-factor auth library\n- [58803781](http://github.com/AChep/keyguard-app/commit/588037813df62974330dded9520df2d408d5dd45) - [AUTO] Update Public suffix list\n- [6dac4a67](http://github.com/AChep/keyguard-app/commit/6dac4a67012913f4d88efa2b69c18620b20d619a) - chore: Bump app version name to 2.3.0\n- [da076a30](http://github.com/AChep/keyguard-app/commit/da076a30a6f0bcd3688b9351b04f957a87d0482f) - improvement(UI,Android): Split privileged apps to User-added and Community-added sections\n- [2b711565](http://github.com/AChep/keyguard-app/commit/2b711565714d27c7879743128b35e3278eeeb2cd) - improvement(Android): Allow disabling passkeys support #1209\n- [996231a7](http://github.com/AChep/keyguard-app/commit/996231a722ad66dbbfb0f04463fd853629772ba8) - improvement(UI): Hide 2FA icon to free some space for the next 2FA token #1208\n- [58bf0fcb](http://github.com/AChep/keyguard-app/commit/58bf0fcb4e2ab6cff00eea00cd35b668696b6566) - improvement(UI): Show both currently active OTP and the next OTP on the item view screen #1208\n- [ef50a88f](http://github.com/AChep/keyguard-app/commit/ef50a88fb1cd060dd9c5142dc54cb9757efa1010) - chore(Flathub): Update metadata\n- [9217702b](http://github.com/AChep/keyguard-app/commit/9217702b8ff861c7432fc7f2385e833d17f8e6a8) - chore(Flathub): Update screenshots"
+        },
+        "url": "https://github.com/AChep/keyguard-app/releases/tag/r20260111"
+    },
+    {
         "date": "2026-01-05",
         "version": {
             "semantic": "2.2.0",
