@@ -1,5 +1,17 @@
 [
     {
+        "date": "2026-01-24",
+        "version": {
+            "semantic": "2.3.2",
+            "tag": "r20260124"
+        },
+        "changelog": {
+            "summary": "This release includes several improvements to the password generator and fixes for certificate handling. You can now create longer passphrases of up to 20 words, and the generator will display a character count for both passphrases and usernames. We have also resolved issues with certificate stores on Windows and macOS for a more reliable experience.",
+            "raw": "- [abb6539f](http://github.com/AChep/keyguard-app/commit/abb6539f39fc19fa9dfb09a164ee061dafcec406) - Merge branch 'master' of https://github.com/AChep/keyguard-app\n- [5c3975c4](http://github.com/AChep/keyguard-app/commit/5c3975c4fe6499fe50ed6ea76b65dce6b66fffb8) - fix(Windows): Revert to using the built-in cert provider\n- [9092a468](http://github.com/AChep/keyguard-app/commit/9092a46802a9a3b7439b3377bfde3a17ad61ce0c) - chore: Bump app version name to 2.3.2\n- [dee1a72d](http://github.com/AChep/keyguard-app/commit/dee1a72d10398b704c491ff2c831fa48018b90ba) - fix(MacOS): Combine KeychainStore with default certificate store\n- [05b3113f](http://github.com/AChep/keyguard-app/commit/05b3113fb542f70288a1ee3b30d570fb81489cbd) - improvement(Generator): Change max number of words of a passphrase from 10 to 20 #1232\n- [05716243](http://github.com/AChep/keyguard-app/commit/05716243ad8cb7c7069e99d7db1001f102ff1c11) - improvement(Generator): Show a number of characters for Passphrase & Username values #1232"
+        },
+        "url": "https://github.com/AChep/keyguard-app/releases/tag/r20260124"
+    },
+    {
         "date": "2026-01-23",
         "version": {
             "semantic": "2.3.1",
