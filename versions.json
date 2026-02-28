@@ -2,6 +2,18 @@
     {
         "date": "2026-02-28",
         "version": {
+            "semantic": "2.4.1",
+            "tag": "r20260228.1"
+        },
+        "changelog": {
+            "summary": "This release addresses a packaging issue to ensure that the ssh-agent and native library binaries are correctly marked as executable after installation.",
+            "raw": "- [8346410c](http://github.com/AChep/keyguard-app/commit/8346410ca72d88beefa5fefbe1e8c974f2c82289) - chore: Bump app version to 2.4.1\n- [c2a07779](http://github.com/AChep/keyguard-app/commit/c2a0777920a7970cbf34407605b6b24a5ad06c4e) - chore: Mark ssh-agent/native-lib binaries as executable post packaging\n- [b9883cb1](http://github.com/AChep/keyguard-app/commit/b9883cb13c5a12a0115fb390e775e458b4011963) - Merge pull request #1276 from AChep/dependabot/github_actions/crowdin/github-action-2.14.1\n- [503cfe6e](http://github.com/AChep/keyguard-app/commit/503cfe6ee20d1fcec1208d5c3bd13c6966357017) - build(deps): Bump crowdin/github-action from 2.14.0 to 2.14.1"
+        },
+        "url": "https://github.com/AChep/keyguard-app/releases/tag/r20260228.1"
+    },
+    {
+        "date": "2026-02-28",
+        "version": {
             "semantic": "2.4.0",
             "tag": "r20260228"
         },
