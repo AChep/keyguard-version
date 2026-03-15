@@ -1,5 +1,17 @@
 [
     {
+        "date": "2026-03-15",
+        "version": {
+            "semantic": "2.6.0",
+            "tag": "r20260315"
+        },
+        "changelog": {
+            "summary": "This release introduces the ability to unlock vaults with a YubiKey on Android and the option to archive or unarchive entries. For Bitwarden users, support for email-protected Sends is now available, and the `encryptedFor` field is correctly included with Cipher entities. This update also contains a fix for YubiKey integration on Android by supplying custom Proguard rules.",
+            "raw": "- [c3ef7753](http://github.com/AChep/keyguard-app/commit/c3ef775312c9e5726f6875a2f36dadf591d36a3c) - Merge pull request #1316 from AChep/localization_action\n- [c93fa4a5](http://github.com/AChep/keyguard-app/commit/c93fa4a59c6aa8fe31c56a61bc3eba84f60c2ec6) - [AUTO] Update localization library\n- [c0998dbe](http://github.com/AChep/keyguard-app/commit/c0998dbe24de5516ff75aec81ff5785fdd6f19a1) - chore: Bump app version to 2.6.0\n- [eca0792b](http://github.com/AChep/keyguard-app/commit/eca0792b7bb5dd78172a8bf0435b049992982266) - chore(Bitwarden): Bump client version to Bitwarden 2026.2.1\n- [99cf9b75](http://github.com/AChep/keyguard-app/commit/99cf9b75f162b34f7b4f434c33db4f19e4da54e0) - fix(Android): Supply custom YubiKey proguard rules\n- [581656ba](http://github.com/AChep/keyguard-app/commit/581656ba69a234958d8b0f92618c759a4bd212c2) - docs: Add vault unlocking info with biometrics and YubiKey\n- [07f3aa93](http://github.com/AChep/keyguard-app/commit/07f3aa93359eee5b6c523114c8432ec7d30c0af3) - feat(Android): Unlock with YubiKey\n- [2f0f1e33](http://github.com/AChep/keyguard-app/commit/2f0f1e3362c9c14b5a2feb496f3e00267d5a1b7b) - refactor: Rename files for a better consistency\n- [da1257e6](http://github.com/AChep/keyguard-app/commit/da1257e6326483ea678db9768202903f8626f7a2) - feat: Archive/Unarchive ciphers (part 2)\n- [2d3c1492](http://github.com/AChep/keyguard-app/commit/2d3c1492895f7c28b67167419dda5277dd8fd648) - feat(Bitwarden): Add a support for email-protected Sends\n- [e077f479](http://github.com/AChep/keyguard-app/commit/e077f4795d656fd90654fb04a5db961e77fcdefa) - feat: Archive/Unarchive ciphers (part 1) #1304\n- [52af3c5c](http://github.com/AChep/keyguard-app/commit/52af3c5cb605f5229664123749c08c447e387637) - improvement(Bitwarden): Send the `encryptedFor` field with the Cipher entity\n- [c8402911](http://github.com/AChep/keyguard-app/commit/c84029115ec7e56f392fec73ad4287bc96ddb715) - Merge pull request #1307 from AChep/dependabot/gradle/org.jlleitschuh.gradle.ktlint-14.2.0\n- [8e5a7710](http://github.com/AChep/keyguard-app/commit/8e5a7710b86b0c379ee5a61e0c7313ebfbfd1355) - chore: Enhance prompt for release note generation, make it more structured\n- [44b50d61](http://github.com/AChep/keyguard-app/commit/44b50d61a46f79a3d1ce084e1d4ccace629f89d7) - docs: Add AUR installation instructions for Keyguard\n- [3a0755e9](http://github.com/AChep/keyguard-app/commit/3a0755e9bee40946c8137a506e959cfd8fb7d51d) - build(deps): Bump org.jlleitschuh.gradle.ktlint from 14.0.1 to 14.2.0"
+        },
+        "url": "https://github.com/AChep/keyguard-app/releases/tag/r20260315"
+    },
+    {
         "date": "2026-03-13",
         "version": {
             "semantic": "2.5.0",
