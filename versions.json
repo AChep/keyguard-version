@@ -1,5 +1,17 @@
 [
     {
+        "date": "2026-03-16",
+        "version": {
+            "semantic": "2.6.1",
+            "tag": "r20260316"
+        },
+        "changelog": {
+            "summary": "This release provides corrections for the Bitwarden integration. The public URL for Bitwarden Send has been fixed for users on the EU server. Additionally, password history for Bitwarden accounts now correctly reflects changes made to secret fields.",
+            "raw": "- [1d3c1e08](http://github.com/AChep/keyguard-app/commit/1d3c1e086ef49cff007ac54d595b6c171dd6556e) - chore: Bump app version to 2.6.1\n- [e41ac37c](http://github.com/AChep/keyguard-app/commit/e41ac37c5c89a3016f1c06bf6b9e011b064fd58c) - fix(Bitwarden): Reflect the changes of the secret fields in the password history #1295\n- [2808a5e8](http://github.com/AChep/keyguard-app/commit/2808a5e8f7d6c752c978d3ce0e7ca4f7ec9aefb7) - fix(Bitwarden): Correct public Send url for EU Bitwarden server"
+        },
+        "url": "https://github.com/AChep/keyguard-app/releases/tag/r20260316"
+    },
+    {
         "date": "2026-03-15",
         "version": {
             "semantic": "2.6.0",
