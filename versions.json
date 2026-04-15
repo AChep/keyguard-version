@@ -1,5 +1,17 @@
 [
     {
+        "date": "2026-04-15",
+        "version": {
+            "semantic": "2.8.1",
+            "tag": "r20260415"
+        },
+        "changelog": {
+            "summary": "A new application icon has been introduced for macOS. On Android, autofill compatibility for Chromium-based browsers has been revised; the list of exotic browsers was removed and a maximum version for compatibility mode was applied. The Autofill origin isolation feature for Android has also been removed.",
+            "raw": "- [ce23da59](http://github.com/AChep/keyguard-app/commit/ce23da590e3e4e4f0ba765ee6b7ae6b313577f36) - chore: Bump app version to 2.8.1\n- [62425f22](http://github.com/AChep/keyguard-app/commit/62425f22d62f94c86bf9921182c9fb9a3dcb7f2c) - fix(Android): Remove the unfortunately not possible Autofill origin isolation #1375\n- [c19e81fe](http://github.com/AChep/keyguard-app/commit/c19e81fefc57f4cf58711f90d5d93beff385f42d) - improvement(Android): Remove all of the exotic Chromium-based browsers from the autofill compatibility mode list\n- [0fc7c852](http://github.com/AChep/keyguard-app/commit/0fc7c8528999c512161f1130e6ab7738284f8506) - improvement(Android): Set max version of the Chromium-based browsers to the autofill compatibility to apply\n- [782a469c](http://github.com/AChep/keyguard-app/commit/782a469cba033810b2ff65bf01faa14c45b634fc) - chore: Migrate to Gradle Toolchains\n- [f326562e](http://github.com/AChep/keyguard-app/commit/f326562e827ae8504d162ff451ded3278e1e6fd4) - deps: Bump AGP from 9.1.0 to 9.1.1\n- [861c9c3c](http://github.com/AChep/keyguard-app/commit/861c9c3c4c49f7f6a6683927c937bb8497cc4f5a) - Merge pull request #1377 from AChep/localization_action\n- [c63423f1](http://github.com/AChep/keyguard-app/commit/c63423f1201d28dd6847f623a88bfde77e388d76) - [AUTO] Update localization library\n- [ec3fa53b](http://github.com/AChep/keyguard-app/commit/ec3fa53b63c46ad26e75415ff1c5d36c612ce809) - improvement(MacOS): Liquid (Gl)ass app icon"
+        },
+        "url": "https://github.com/AChep/keyguard-app/releases/tag/r20260415"
+    },
+    {
         "date": "2026-04-10",
         "version": {
             "semantic": "2.8.0",
