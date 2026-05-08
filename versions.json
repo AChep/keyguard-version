@@ -1,5 +1,17 @@
 [
     {
+        "date": "2026-05-08",
+        "version": {
+            "semantic": "2.10.1",
+            "tag": "r20260508"
+        },
+        "changelog": {
+            "summary": "This update addresses several user interface issues. On Android, a layout rendering issue in the subscriptions view has been corrected. Additionally, the 'Send' tab will no longer flicker upon application launch, as its visibility state is now loaded from the cache to prevent waiting for upstream status.",
+            "raw": "- [90113b81](http://github.com/AChep/keyguard-app/commit/90113b816fe197642d83bb93979a9e3e052c2a16) - chore: Bump app version to 2.10.1\n- [a8879e2f](http://github.com/AChep/keyguard-app/commit/a8879e2ff495aafa1fc2e09dfdc3284bc4aabc08) - fix(Android): Remove double wrapping into surface for subscriptions layout\n- [2d222012](http://github.com/AChep/keyguard-app/commit/2d222012752788119fc4ac0b4d96e629ce3003b8) - fix: Prevent Send tab visibility from always waiting for the upstream status instead of using cache -- no more flicker on launch\n- [7bb52de2](http://github.com/AChep/keyguard-app/commit/7bb52de2fb8be08c9838999b4c4494e11c6a2b92) - docs: Add attachment upload feature to vault"
+        },
+        "url": "https://github.com/AChep/keyguard-app/releases/tag/r20260508"
+    },
+    {
         "date": "2026-05-07",
         "version": {
             "semantic": "2.10.0",
