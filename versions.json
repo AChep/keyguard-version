@@ -2,6 +2,18 @@
     {
         "date": "2026-05-08",
         "version": {
+            "semantic": "2.10.2",
+            "tag": "r20260508.1"
+        },
+        "changelog": {
+            "summary": "This update brings improvements for Wear OS and SSH functionality. The Wear OS app introduces a platform-specific UI for the change password screen, displays Watchtower alerts for SSH keys, and now respects Send tab visibility preferences. For SSH users, the in-app tutorial shows actual socket paths. This release also resolves issues where the Wear OS vault did not persist through restarts and trashed SSH keys were not correctly omitted from lists or signing requests.",
+            "raw": "- [e8fd4433](http://github.com/AChep/keyguard-app/commit/e8fd44332eb536afec6c9754e60f6ada69a9ae6f) - chore: Bump app version to 2.10.2\n- [0104295f](http://github.com/AChep/keyguard-app/commit/0104295f8d66564a383f55578896be0c15b19388) - refactor(Desktop): Allow both prod & dev builds running side by side\n- [f78a8289](http://github.com/AChep/keyguard-app/commit/f78a82892ecabac2368752162f849c028dbc3fe2) - improvement(Wear): Use a Wear-specific UI for the CHange password screen\n- [c41b8e1a](http://github.com/AChep/keyguard-app/commit/c41b8e1a7395ea39a88c579d0aff9ccd0928274e) - improvement(SSH): Wear SSH key watchtower alert\n- [51ef5e4b](http://github.com/AChep/keyguard-app/commit/51ef5e4b6832bbc2eedfea81b348ad12bcbc2871) - fix(Wear): Persist vault database through app restarts\n- [66514a6f](http://github.com/AChep/keyguard-app/commit/66514a6ffa8747be8bebb0c4fff180fe4d121e1f) - fix(SSH): Omit trashed SSH keys from list & sign requests\n- [4363af19](http://github.com/AChep/keyguard-app/commit/4363af19b64509c9db9297a46b4ba13aba509a7a) - improvement(SSH): Show the actual paths to the .sock in the in-app tutorial\n- [161d80e7](http://github.com/AChep/keyguard-app/commit/161d80e79e432a80a094b791e668cec8833d2bbe) - improvement(Wear): Respect the Send tab visibility preferences\n- [67719d7d](http://github.com/AChep/keyguard-app/commit/67719d7d81d0adfc79f6dbcd88e42fd42172722c) - tests: Fix flaky Bitwarden sync test caused by the async log messages"
+        },
+        "url": "https://github.com/AChep/keyguard-app/releases/tag/r20260508.1"
+    },
+    {
+        "date": "2026-05-08",
+        "version": {
             "semantic": "2.10.1",
             "tag": "r20260508"
         },
