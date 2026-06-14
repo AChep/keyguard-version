@@ -2,6 +2,18 @@
     {
         "date": "2026-06-14",
         "version": {
+            "semantic": "2.14.1",
+            "tag": "r20260614.1"
+        },
+        "changelog": {
+            "summary": "This update includes internal housekeeping and prepares for future improvements.",
+            "raw": "- [65e25991](http://github.com/AChep/keyguard-app/commit/65e25991123b15b58afda699574ca7f8171a9f95) - chore: Bump app version name to 2.14.1"
+        },
+        "url": "https://github.com/AChep/keyguard-app/releases/tag/r20260614.1"
+    },
+    {
+        "date": "2026-06-14",
+        "version": {
             "semantic": "2.14.0",
             "tag": "r20260614"
         },
