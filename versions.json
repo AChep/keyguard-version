@@ -3,6 +3,18 @@
         "date": "2026-08-11",
         "version": {
             "semantic": "3.0.0",
+            "tag": "r20260811.1"
+        },
+        "changelog": {
+            "summary": "An issue that prevented some KDBX vaults from opening has been resolved by improving how Keyguard parses vault data. The app now correctly reads files containing extra data after the main content block, increasing compatibility with vaults modified by other KeePass clients. This release also enhances the precision of KDBX revision handling for more reliable data synchronization.",
+            "raw": "- [cf12c39f](http://github.com/AChep/keyguard-app/commit/cf12c39f066e251000d7401487ee92f9f345415d) - fix(KDBX): Align KDBX revision precision\n- [520b7f89](http://github.com/AChep/keyguard-app/commit/520b7f89d3c2151aee41ad4d18fa97279a92a9c4) - refactor(KDBX): Slightly faster zero bytes check\n- [958ba315](http://github.com/AChep/keyguard-app/commit/958ba315047f0753f8884be0d33cc9f18fc4c6fe) - fix(KDBX): Allow non-empty content after KDBX terminal block #1527\n- [84d8e35f](http://github.com/AChep/keyguard-app/commit/84d8e35f3866d6b0b47344a25c967c2c21240d85) - chore(Google Play): Fetch version codes without creating edits"
+        },
+        "url": "https://github.com/AChep/keyguard-app/releases/tag/r20260811.1"
+    },
+    {
+        "date": "2026-08-11",
+        "version": {
+            "semantic": "3.0.0",
             "tag": "r20260811"
         },
         "changelog": {
