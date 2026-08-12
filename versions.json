@@ -1,5 +1,17 @@
 [
     {
+        "date": "2026-08-12",
+        "version": {
+            "semantic": "3.0.2",
+            "tag": "r20260812.1"
+        },
+        "changelog": {
+            "summary": "This release provides an important stability improvement for users on Windows. We have corrected a critical issue that previously caused the application to crash immediately upon startup on the Windows platform. The application should now launch correctly and reliably for all affected users.",
+            "raw": "- [bcf5bcbc](http://github.com/AChep/keyguard-app/commit/bcf5bcbc98c35cea4bdcd9f615712862a7c4ac0f) - Merge pull request #1530 from AChep/localization_action\n- [77b142c6](http://github.com/AChep/keyguard-app/commit/77b142c60f4c2e54cbbc41658071e98ecf8770c8) - [AUTO] Update localization library\n- [b385c9e7](http://github.com/AChep/keyguard-app/commit/b385c9e7032357c776d588a4729319b2723e56dd) - chore: Bump app version to 3.0.2\n- [f359dc49](http://github.com/AChep/keyguard-app/commit/f359dc49c53f0975c7b062b33bc6d1c0757ff21f) - fix: Adjust proguard rules to prevent Windows build from crashing on startup (keep JNA) #1528\n- [18d6322c](http://github.com/AChep/keyguard-app/commit/18d6322c9f8a119c5f01a5b421c8aca2d42b848f) - Merge pull request #1512 from AChep/dependabot/github_actions/crowdin/github-action-2.17.0\n- [69070ebd](http://github.com/AChep/keyguard-app/commit/69070ebd043ceb26a1a04bd92d1d711ef6a6b5b5) - Merge pull request #1513 from AChep/dependabot/github_actions/pnpm/action-setup-6.0.9\n- [21b5c976](http://github.com/AChep/keyguard-app/commit/21b5c976c7b668bf2c27bb46f1855c65b6219fee) - chore(deps): bump pnpm/action-setup from 6.0.8 to 6.0.9\n- [55e5e9fe](http://github.com/AChep/keyguard-app/commit/55e5e9fe705c3eb14faa7e3108dc6a0a67d73976) - chore(deps): bump crowdin/github-action from 2.16.3 to 2.17.0"
+        },
+        "url": "https://github.com/AChep/keyguard-app/releases/tag/r20260812.1"
+    },
+    {
         "date": "2026-08-11",
         "version": {
             "semantic": "3.0.0",
