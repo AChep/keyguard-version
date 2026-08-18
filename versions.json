@@ -1,5 +1,17 @@
 [
     {
+        "date": "2026-08-18",
+        "version": {
+            "semantic": "3.0.3",
+            "tag": "r20260818.1"
+        },
+        "changelog": {
+            "summary": "This release improves network connection reliability by resolving an issue within our trust manager. This fix specifically enhances the stability of connections that utilize custom TLS certificates for authentication. The result is more consistent and dependable performance for users operating in environments with advanced security configurations, ensuring robust connectivity.",
+            "raw": "- [9154d4b6](http://github.com/AChep/keyguard-app/commit/9154d4b606b7b2b94fd218315e1e2d61b1b08592) - chore: Install clippy and rustfmt during Rust toolchain setup\n- [c5642d45](http://github.com/AChep/keyguard-app/commit/c5642d45d0f027055e193a958ae63f44fcdafbc7) - chore: Bump app version to 3.0.3\n- [9eee6676](http://github.com/AChep/keyguard-app/commit/9eee6676f6cc4153c7e3c2428d14cd5d39b73be0) - refactor: Migrate away out of the internal OkHTTP APIs for the trust manager\n- [4b790082](http://github.com/AChep/keyguard-app/commit/4b7900820db778056395e8498db40925f2a95e11) - fix: Skip empty trust managers #1540"
+        },
+        "url": "https://github.com/AChep/keyguard-app/releases/tag/r20260818.1"
+    },
+    {
         "date": "2026-08-12",
         "version": {
             "semantic": "3.0.2",
