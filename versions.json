@@ -1,5 +1,17 @@
 [
     {
+        "date": "2026-08-19",
+        "version": {
+            "semantic": "3.0.4",
+            "tag": "r20260819.2"
+        },
+        "changelog": {
+            "summary": "This release resolves a critical issue on the desktop application that prevented the file picker from opening, restoring the ability to add attachments and open local databases. Additionally, this update corrects a problem where images, such as website favicons for vault entries, failed to load properly. These reliability improvements affect the Keyguard app for Windows, macOS, and Linux.",
+            "raw": "- [4b4d7a5d](http://github.com/AChep/keyguard-app/commit/4b4d7a5d307d2c683d406fc3b87ed8d59ea96ce8) - Merge pull request #1543 from AChep/localization_action\n- [60ff6437](http://github.com/AChep/keyguard-app/commit/60ff64378eb5c3f7fe1e458da43d9ec662ac4d6c) - [AUTO] Update localization library\n- [a974eccd](http://github.com/AChep/keyguard-app/commit/a974eccd74a181512121f63bb22786555482e65b) - fix(Desktop): Enable obfuscation + keepnames to workaround keepattributes step\n- [d67da1c5](http://github.com/AChep/keyguard-app/commit/d67da1c5f3f8506fd29e838f301a2d788d728439) - chore: Bump app version to 3.0.4\n- [06622582](http://github.com/AChep/keyguard-app/commit/066225829e391aedee8ac707e98d93929e796d6d) - docs: Rephrase docs pages to be more concrete\n- [f8a9240f](http://github.com/AChep/keyguard-app/commit/f8a9240ff910322fb73fdfb41a455eae84d03126) - docs: Rephrase feature pages to be more concrete\n- [3f438e8b](http://github.com/AChep/keyguard-app/commit/3f438e8b8034629970b461508ac03b6671567a16) - docs(Flatpak): Add GPG agent description line\n- [3c9ca999](http://github.com/AChep/keyguard-app/commit/3c9ca999dd60ebe4a7b527a38d07ac42a90fdb87) - fix(Desktop): Adjust proguard rules to fix broken Coil image loading and file picker #1532"
+        },
+        "url": "https://github.com/AChep/keyguard-app/releases/tag/r20260819.2"
+    },
+    {
         "date": "2026-08-18",
         "version": {
             "semantic": "3.0.3",
