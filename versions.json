@@ -1,5 +1,17 @@
 [
     {
+        "date": "2026-09-05",
+        "version": {
+            "semantic": "3.2.0",
+            "tag": "r20260905.2"
+        },
+        "changelog": {
+            "summary": "This update allows you to export GPG public and private keys as .asc files and unlock KeePass KDBX vaults using only a key file, without a master password. When uploading a GPG key, you can now request a verification email. This release also improves platform stability by ensuring the agent process on Windows shuts down reliably and fixing a crash on Android that could occur if the system file picker was unavailable.",
+            "raw": "- [f04099f0](http://github.com/AChep/keyguard-app/commit/f04099f06367a18c7a7167005164425be72c4397) - fix(GPG/SSH): If display key names is disabled then fetch the key names after unlocking #1573\n- [356cb0b3](http://github.com/AChep/keyguard-app/commit/356cb0b3e5c3aaea2f545b1c26658430646f8476) - fix(Windows): Stop the agent process before closing the IPC transport #1548\n- [58eff7de](http://github.com/AChep/keyguard-app/commit/58eff7de2172c47224de2f1957866ccbe28cea5c) - chore: Remove typo trailing comma\n- [3bf37965](http://github.com/AChep/keyguard-app/commit/3bf37965a4ecbab06fdaaa035cb99754266a2fe5) - chore: Bump app version to 3.2.0\n- [f4d54943](http://github.com/AChep/keyguard-app/commit/f4d54943dbbe44973ee3c250c3f77a6445a702c8) - improvement(KDBX): Do not require a password for KDBX database with a key file set #1534\n- [9b89a396](http://github.com/AChep/keyguard-app/commit/9b89a396261b777f35279b774bfd85a09cb1ee45) - fix(Android): Do not hard crash if file picker reports no Activity found\n- [77e59b0f](http://github.com/AChep/keyguard-app/commit/77e59b0fd9ccb8bae15317b121b2284824101e21) - improvement(Desktop): More detailed error message when failing to open a URI #1553\n- [3495693d](http://github.com/AChep/keyguard-app/commit/3495693d9eda7aa76bb78897370e6d19a54cf909) - improvement(GPG): An option to send the verification email when uploading your public key\n- [5686d443](http://github.com/AChep/keyguard-app/commit/5686d443de2a779bac3e52afcb3123cca0cac7dc) - fix(macOS): Copy on a current thread, do not hop on a main for this\n- [79e252be](http://github.com/AChep/keyguard-app/commit/79e252be583390768fde1650aa430788e03d0a8c) - improvement(GPG): Cache by-email VKS responses during the throttle windows\n- [ab315034](http://github.com/AChep/keyguard-app/commit/ab315034b96cee1e09f755277896cfd40113801f) - improvement(GPG): Allow exporting public/private keys as .asc\n- [f6204e91](http://github.com/AChep/keyguard-app/commit/f6204e91ce7a9fba353f9a1140e3407104cb468b) - fix: Use correct string resources for the website leak screen\n- [4ceae594](http://github.com/AChep/keyguard-app/commit/4ceae594d03aa29c58a9fec350ec1012fb5c421d) - refactor: Share some entrypoint setup between Wear and Android"
+        },
+        "url": "https://github.com/AChep/keyguard-app/releases/tag/r20260905.2"
+    },
+    {
         "date": "2026-09-04",
         "version": {
             "semantic": "3.1.0",
