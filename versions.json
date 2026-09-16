@@ -1,5 +1,17 @@
 [
     {
+        "date": "2026-09-16",
+        "version": {
+            "semantic": "3.2.3",
+            "tag": "r20260916"
+        },
+        "changelog": {
+            "summary": "Keyguard on macOS now automatically locks your vault when the screen turns off for enhanced security. This update also improves reliability by fixing a crash on older Android versions and increases compatibility on Windows, resolving issues when opening vaults stored in locations with certain folder permissions.",
+            "raw": "- [b2b913e9](http://github.com/AChep/keyguard-app/commit/b2b913e99d329e97550dec71f87d38a8fdb483c0) - chore: Setup only `platform-tools`\n- [8d4142a1](http://github.com/AChep/keyguard-app/commit/8d4142a133d498db67865b7707b6a621380fa8b6) - chore: Bump app version to 3.2.3\n- [3b12493c](http://github.com/AChep/keyguard-app/commit/3b12493cdd05136a7cb47058397f5bcf448ee861) - feat(MacOS): Auto-lock when screen turns off #1602\n- [d2573a6f](http://github.com/AChep/keyguard-app/commit/d2573a6f413fc149265f663d0c895a9708712097) - fix: Allow permissive Windows ancestor ACLs #1601\n- [32689c45](http://github.com/AChep/keyguard-app/commit/32689c45f38e3bb5d4f5bfc49ac2950c4e542cfd) - fix: Hide unsupported Backups screen on Wear OS\n- [97addfd7](http://github.com/AChep/keyguard-app/commit/97addfd777240a8dc04964713459df8a13b4d4f7) - refactor: Custom Detekt rule to catch List.removeLast() calls in Android code\n- [5e60d507](http://github.com/AChep/keyguard-app/commit/5e60d5078e8f73ef9dc96240a601ee1542c3469d) - fix(Android): Avoid using List.removeLast() to prevent a crash on older OS versions\n- [219dfa98](http://github.com/AChep/keyguard-app/commit/219dfa9890bd41586cdecf4129de63c97834a7f1) - chore(Windows): Update Package/Properties/DisplayName to the reserved Keyguard App\n- [5294e133](http://github.com/AChep/keyguard-app/commit/5294e133bb9f243167b4258302f0554ce0f9988b) - chore(Windows): Allow ARM64 DLLs in PE hardening checks\n- [7cf3117e](http://github.com/AChep/keyguard-app/commit/7cf3117e46216273422ded88170da6b202f5c35f) - chore: Build MSIX for Microsoft Store"
+        },
+        "url": "https://github.com/AChep/keyguard-app/releases/tag/r20260916"
+    },
+    {
         "date": "2026-09-14",
         "version": {
             "semantic": "3.2.2",
