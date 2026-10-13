@@ -1,5 +1,17 @@
 [
     {
+        "date": "2026-10-13",
+        "version": {
+            "semantic": "3.4.0",
+            "tag": "r20261013"
+        },
+        "changelog": {
+            "summary": "Keyguard adds single sign-on support for Bitwarden accounts, allowing users to log in to their vault using SSO authentication. For the desktop application, this update fixes an issue that prevented cipher detail items with vault URI icons from opening properly, ensuring these items open correctly. This release ensures reliable access to Bitwarden SSO logins and restores the expected behavior when opening vault URI cipher detail items across desktop platforms.",
+            "raw": "- [2b90901be](http://github.com/AChep/keyguard-app/commit/2b90901be408b5f831921c8935c996a5ebe8f287) - chore: Bump app version to 3.4.0\n- [7511a1ff3](http://github.com/AChep/keyguard-app/commit/7511a1ff3df6bbfc687d093175056b37abe26fe9) - feat(Bitwarden): Login to Bitwarden via SSO #605\n- [458729956](http://github.com/AChep/keyguard-app/commit/45872995673392087bcbe94d527c829eb2d3d8de) - fix(Desktop): Fix proguard configuration to open cipher detail item with vault URI icon correctly"
+        },
+        "url": "https://github.com/AChep/keyguard-app/releases/tag/r20261013"
+    },
+    {
         "date": "2026-10-12",
         "version": {
             "semantic": "3.3.0",
